@@ -1,14 +1,16 @@
 body{
     margin: 0px;
+    padding-top: 10rem;
     font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 60px;
     font-style: normal;
     font-weight: 100px;
-    line-height: 96px;
+    line-height: 85px;
     color: #363958;
     text-align: left;
+
 }
 .orange-highlight{
     color: #FF8387;
@@ -29,9 +31,9 @@ h3{
     width: 60%;
 }
 
-.link-button{
+.button{
     text-decoration: none;
-    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    background-image: linear-gradient(45deg, rgb(0, 110, 9), rgb(16, 137, 173));
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -44,7 +46,7 @@ section{
 .one-third-width{
     width: 25%;
     float: left;
-    margin: 5px;
+    margin: 1px;
     margin-left: 1%;
     padding-left: 3%;
 }
@@ -60,4 +62,69 @@ section{
     box-shadow: 10px 10px 20px grey;
     border-radius: 20px;
     height: 60%;
+}
+.work-inquiry{
+    background-image: url(shapes/Group_33094_1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center, bottom;
+}
+#inquiry{
+    font-size: 50px;
+    color: white;
+    padding: 12rem;
+    padding-right: 15rem;
+    float: left;
+    margin-left: 20rem;
+}
+
+#chat{
+    font-size: 25px;
+    color: yellowgreen;
+    padding: 15rem;
+}
+.footer{
+    font-size: 16px;
+    color: grey;
+    padding: 2rem;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: 500;
+
+}
+.ad{
+    text-align: center;
+    color: #363958;
+}
+#power{
+    padding-bottom: 12rem;
+    margin-left: none;
+    background-image: url(images/image\ 4.png);
+    background-repeat: no-repeat;
+}
+#power img{
+    size: 20%;
+}
+#gymtext{
+    padding-bottom: 0rem;
+    margin-left: none;
+    margin-right: 5rem;
+}
+#cc img{
+    size: 20%;
+}
+#cc{
+    padding-bottom: 12rem;
+    margin-left: none;
+    background-image: url(images/image\ 5.png);
+    background-repeat: none;
+}
+#hardrock img{
+    size: 20%;
+}
+#hardrock{
+    padding-bottom: 12rem;
+    margin-left: none;
+    background-image: url(images/image\ 8.png);
+    background-repeat: none;
 }
